@@ -1,35 +1,26 @@
-import { React, lazy, Suspense } from 'react';
+import { React } from 'react';
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
 import ScrollToTop from './ScrollToTop.js';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import LazyLoad from './Components/LayLoadSpinner/LazyLoadSpinner';
-// import logo from './logo.svg';
-const NotFound = lazy(() => import('./Components/NotFound/NotFound'));
+import NotFound from './Components/NotFound/NotFound';
+import Header from './Components/Header/Header.js';
+import Home from './Pages/Home/Home.js';
 
 function App() {
   return (
     <div className="App">
         <Router>
+            <Header/>
             <ScrollToTop>
                 <Switch>
-                    <Route path="/home">
-                            <Suspense fallback={<LazyLoad></LazyLoad>}>
-                                
-                            </Suspense>
-                    </Route>
                     <Route exact path="/">
-                            <Suspense fallback={<LazyLoad></LazyLoad>}>
-                              
-                            </Suspense>
+                        <Home/>
                     </Route>
                     <Route path="*">
-                            <Suspense fallback={<LazyLoad></LazyLoad>}>
-                                <NotFound></NotFound>
-                            </Suspense>
+                        <NotFound></NotFound>
                     </Route>
                 </Switch>
             </ScrollToTop>

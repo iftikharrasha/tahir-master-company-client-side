@@ -1,4 +1,7 @@
 @import './variables';
+@import './header';
+@import './hero';
+@import './notfound';
 
 * {
     margin: 0;
@@ -9,15 +12,15 @@
 html {
     font-size: 16px;
     scroll-behavior: smooth;
-    // @media (max-width: 375.5px) {
-    //     font-size: 8px;
-    // }
-    // @media (min-width: 376px) and (max-width: 575.98px) {
-    //     font-size: 10px;
-    // }
-    // @media (min-width: 576px) and (max-width: 1531.98px) {
-    //     font-size: 12px;
-    // }
+    @media (max-width: 375.5px) {
+        font-size: 8px;
+    }
+    @media (min-width: 376px) and (max-width: 575.98px) {
+        font-size: 10px;
+    }
+    @media (min-width: 576px) and (max-width: 1531.98px) {
+        font-size: 12px;
+    }
 }
 
 body {
@@ -67,8 +70,24 @@ a, select , input , textarea , button{
     text-decoration: none;
 }
 
-// .semi--24{
-//     font-family: $ff3;
-//     font-size: 1.5rem;
-//     line-height: 2.5rem;
-// }
+/* colors */
+.c-tag-1{
+    color: $primary !important;
+}
+
+.c--custom{
+    max-width: 85.125rem;
+}
+
+/* fonts */
+.medi--20{
+    font-family: $ff2;
+    font-size: 1.25rem;
+}
+
+.semi--45{
+    font-family: $ff3;
+    font-weight: 600;
+    font-size: 2.8rem;
+    line-height: 4rem;
+}

@@ -1,0 +1,25 @@
+.notFound {
+    @include flexCenter;
+    flex-direction: column;
+    color: $primary;
+    height: 80vh;
+
+    h1 {
+        display: inline-block;
+        border-right: 1px solid $primary;
+        margin-right: 1.25rem;
+        padding: 0.625rem 1.4375rem 0.625rem 0;
+    }
+    .bar {
+        display: inline-block;
+        text-align: left;
+        height: 3rem;
+        vertical-align: middle;
+        h2 {
+            font-weight: normal;
+            line-height: inherit;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
