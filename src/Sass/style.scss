@@ -85,9 +85,44 @@ a, select , input , textarea , button{
     font-size: 1.25rem;
 }
 
+.medi--25{
+    font-family: $ff2;
+    font-size: 1.5rem;
+}
+
+.medi--35{
+    font-family: $ff2;
+    font-size: 2.18rem;
+}
+
 .semi--45{
     font-family: $ff3;
     font-weight: 600;
     font-size: 2.8rem;
     line-height: 4rem;
+}
+
+.services{
+    .bottom--line{
+        display: inline-block;
+        width: 15%;
+        border-bottom: 1px solid $orange;
+    }
+    .service--card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .card--item{
+            width: 25%;
+            margin: 15px;
+            padding: 60px 0;
+            border-radius: 10px;
+            border: 1px solid #ff990052;
+            cursor: pointer;
+            &:hover{
+                border: 1px solid $orange;
+                box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+            }
+        }
+    }
 }

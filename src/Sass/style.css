@@ -160,10 +160,52 @@ a, select, input, textarea, button {
   font-size: 1.25rem;
 }
 
+.medi--25 {
+  font-family: var(--ff2);
+  font-size: 1.5rem;
+}
+
+.medi--35 {
+  font-family: var(--ff2);
+  font-size: 2.18rem;
+}
+
 .semi--45 {
   font-family: var(--ff3);
   font-weight: 600;
   font-size: 2.8rem;
   line-height: 4rem;
+}
+
+.services .bottom--line {
+  display: inline-block;
+  width: 15%;
+  border-bottom: 1px solid var(--orange);
+}
+
+.services .service--card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.services .service--card .card--item {
+  width: 25%;
+  margin: 15px;
+  padding: 60px 0;
+  border-radius: 10px;
+  border: 1px solid #ff990052;
+  cursor: pointer;
+}
+
+.services .service--card .card--item:hover {
+  border: 1px solid var(--orange);
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
 }
 /*# sourceMappingURL=style.css.map */
