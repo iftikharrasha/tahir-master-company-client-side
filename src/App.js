@@ -8,7 +8,6 @@ import ScrollToTop from './ScrollToTop.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LazyLoad from './Components/LayLoadSpinner/LazyLoadSpinner';
 // import logo from './logo.svg';
-import './App.css';
 const NotFound = lazy(() => import('./Components/NotFound/NotFound'));
 
 function App() {
@@ -35,13 +34,6 @@ function App() {
                 </Switch>
             </ScrollToTop>
         </Router>
-
-        {/* <div className="facebook">
-            <Button>
-                <div className="fb-text">
-                <span><i className="fab fa-facebook"></i></span> Facebook</div>
-            </Button>
-        </div> */}
     </div>
   );
 }

@@ -1,0 +1,90 @@
+@font-face {
+  font-family: Raleway-Regular;
+  src: url(../Fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: Raleway-Medium;
+  src: url(../Fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+  font-family: Raleway-SemiBold;
+  src: url(../Fonts/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Lato-Regular;
+  src: url(../Fonts/Lato-Regular.ttf);
+}
+
+:root {
+  --white: #FFFFFF;
+  --primary: #313131;
+  --accent: #707070;
+  --secondary: #202020;
+  --orange: #FF9900;
+  --ff1: 'Raleway-Regular', 'san-serif';
+  --ff2: 'Raleway-Medium', 'san-serif';
+  --ff3: 'Raleway-SemiBold', 'san-serif';
+  --ff4: 'Lato-Regular', 'san-serif';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--ff2);
+  font-weight: 500;
+  background-color: var(--white);
+  color: var(--primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  margin: 0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a, select, input, textarea, button {
+  outline: none !important;
+}
+
+.btn:focus, .btn.focus, .form-control:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-link:focus, .btn-link.focus {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */

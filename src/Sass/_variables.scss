@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Raleway-Regular;
+    src: url(../Fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: Raleway-Medium;
+    src: url(../Fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: Raleway-SemiBold;
+    src: url(../Fonts/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../Fonts/Lato-Regular.ttf);
+}
+  
+:root {
+    --white: #FFFFFF;
+    --primary: #313131;
+    --accent: #707070;
+    --secondary: #202020;
+    --orange: #FF9900;
+    --ff1: 'Raleway-Regular', 'san-serif';
+    --ff2: 'Raleway-Medium', 'san-serif';
+    --ff3: 'Raleway-SemiBold', 'san-serif';
+    --ff4: 'Lato-Regular', 'san-serif';
+}
+
+$white: var(--white);
+$primary: var(--primary);
+$accent: var(--accent);
+$secondary: var(--secondary);
+$orange: var(--orange);
+$ff1: var(--ff1);
+$ff2: var(--ff2);
+$ff3: var(--ff3);
+$ff4: var(--ff4);
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  

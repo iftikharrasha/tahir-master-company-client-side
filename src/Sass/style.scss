@@ -1,0 +1,74 @@
+@import './variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    // @media (max-width: 375.5px) {
+    //     font-size: 8px;
+    // }
+    // @media (min-width: 376px) and (max-width: 575.98px) {
+    //     font-size: 10px;
+    // }
+    // @media (min-width: 576px) and (max-width: 1531.98px) {
+    //     font-size: 12px;
+    // }
+}
+
+body {
+    font-family: $ff2;
+    font-weight: 500;
+    background-color: $white;
+    color: $primary;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: all 0.3s ease-in-out;
+}
+
+.App {
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding:0;
+    font-weight: 500;
+}
+
+ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+
+a{
+	margin:0;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+a, select , input , textarea , button{
+	outline: none !important;
+}
+
+.btn:focus, .btn.focus, .form-control:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn-link:focus, .btn-link.focus {
+    text-decoration: none;
+}
+
+// .semi--24{
+//     font-family: $ff3;
+//     font-size: 1.5rem;
+//     line-height: 2.5rem;
+// }
