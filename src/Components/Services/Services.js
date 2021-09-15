@@ -44,7 +44,7 @@ const Services = () => {
     return (
         <>
             <section className="services py-5">
-                <Container>
+                <Container className="c--custom">
                     <Row className="mt-5">
                         <Col className="text-center">
                             <h2>Unsere Leistungen</h2>
@@ -58,7 +58,7 @@ const Services = () => {
                                         services.map((item) => (
                                             <div className="card--item text-center" key={item.id}>
                                                 <img className="img-fluid" src={item.imgSrc} alt="service" />
-                                                <p className="pt-5 medi--25">{item.text}</p>
+                                                <p className="pt-5 medi--25 c-tag-2">{item.text}</p>
                                             </div>
                                         ))
                                     }

@@ -4,6 +4,8 @@
 @import './services';
 @import './gallery';
 @import './contact';
+@import './rent';
+@import './footer';
 @import './notfound';
 
 * {
@@ -73,13 +75,17 @@ a, select , input , textarea , button{
     text-decoration: none;
 }
 
+.c--custom{
+    max-width: 85.125rem;
+}
+
 /* colors */
 .c-tag-1{
     color: $primary !important;
 }
 
-.c--custom{
-    max-width: 85.125rem;
+.c-tag-2{
+    color: $accent !important;
 }
 
 /* fonts */
@@ -87,6 +93,11 @@ a, select , input , textarea , button{
     font-family: $ff4;
     font-weight: 400;
     font-size: 1.5rem;
+}
+
+.medi--16{
+    font-family: $ff2;
+    font-size: 1rem;
 }
 
 .medi--20{

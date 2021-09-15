@@ -1,0 +1,36 @@
+.rent{
+    .bottom--line{
+        @include bottomLine(20%);
+    }
+    .form--head{
+        .bottom--line{
+            @include bottomLine(20%);
+        }
+    }
+    .form-main{
+        width: 90%;
+        .form--item{
+            width: 100%;
+            padding: 0 1rem;
+            input, textarea{
+                border-radius: 0.5rem;
+                padding: .7rem;
+                background-color: #F6F6F6;
+                border: none;
+            }
+            button{
+                background-color: $orange;
+                width: 100%;
+                border-radius: 0.5rem;
+                padding: .7rem;
+                border: none;
+            }
+        }
+    }
+    .rent--info{
+        padding: 0 3rem;
+        .info--details{
+
+        }
+    }
+}

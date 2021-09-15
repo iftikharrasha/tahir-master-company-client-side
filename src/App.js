@@ -8,6 +8,7 @@ import ScrollToTop from './ScrollToTop.js';
 import NotFound from './Components/NotFound/NotFound';
 import Header from './Components/Header/Header.js';
 import Home from './Pages/Home/Home.js';
+import Footer from './Components/Footer/Footer.js';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
                     </Route>
                 </Switch>
             </ScrollToTop>
+            <Footer/>
         </Router>
     </div>
   );

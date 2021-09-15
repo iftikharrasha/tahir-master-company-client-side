@@ -8,7 +8,7 @@ const Contact = () => {
     return (
         <>
             <section className="contact py-5">
-                <Container>
+                <Container className="c--custom">
                     <Row className="my-5">
                         <Col className="text-center">
                             <h2>KONTAKT</h2>
@@ -24,18 +24,18 @@ const Contact = () => {
                                             <img src={telephone} alt="telephone" className="img-fluid"/>
                                         </div>
                                         <p className="semi--20 my-3">Telephone:</p>
-                                        <h6 className="lato--25">+49 176 879 177 45</h6>
+                                        <h6 className="lato--25 c-tag-2">+49 176 879 177 45</h6>
                                     </address>
                                     <address className="address d-flex justify-content-center align-items-center flex-column">
                                         <div className="circle d-flex justify-content-center align-items-center">
                                             <img src={gmail} alt="gmail" className="img-fluid"/>
                                         </div>
                                             <p className="semi--20 my-3">Telephone:</p>
-                                            <h6 className="lato--25">+49 176 879 177 45</h6>
+                                            <h6 className="lato--25 c-tag-2">+49 176 879 177 45</h6>
                                     </address>
                                 </Col>
                                 <Col md={7}>
-                                    <img src={contactImg} alt="" />
+                                    <img src={contactImg} alt="tahir" className="img-fluid"/>
                                 </Col>
                             </Row>
                         </Col>

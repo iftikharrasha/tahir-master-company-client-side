@@ -36,8 +36,8 @@
 }
 
 .services .bottom--line {
-  display: inline-block;
   width: 15%;
+  display: inline-block;
   border-bottom: 1px solid var(--orange);
 }
 
@@ -54,9 +54,9 @@
 
 .services .service--card .card--item {
   width: 25%;
-  margin: 15px;
-  padding: 60px 0;
-  border-radius: 10px;
+  margin: 0.9rem;
+  padding: 3.75rem 0;
+  border-radius: 0.6rem;
   border: 1px solid #ff990052;
   -webkit-transition: all 350ms ease;
   transition: all 350ms ease;
@@ -65,13 +65,17 @@
 
 .services .service--card .card--item:hover {
   border: 1px solid var(--orange);
-  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 0px 1.25rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 1.25rem rgba(0, 0, 0, 0.15);
+}
+
+.services .service--card .card--item:hover p {
+  color: var(--primary) !important;
 }
 
 .gallery .bottom--line {
-  display: inline-block;
   width: 5%;
+  display: inline-block;
   border-bottom: 1px solid var(--orange);
 }
 
@@ -114,11 +118,6 @@
 }
 
 .gallery .popup {
-  width: 100%;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -128,6 +127,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
   background-color: #000000;
   -webkit-transition: opacity .4s ease, visibility .4s ease, -webkit-transform .5s ease-in-out;
   transition: opacity .4s ease, visibility .4s ease, -webkit-transform .5s ease-in-out;
@@ -171,23 +175,74 @@
 }
 
 .contact .bottom--line {
-  display: inline-block;
   width: 7%;
+  display: inline-block;
   border-bottom: 1px solid var(--orange);
 }
 
 .contact .address .circle {
-  width: 5rem;
-  height: 5rem;
+  width: 4.5rem;
+  height: 4.5rem;
   border-radius: 50%;
   -webkit-box-shadow: 0px 0px 1.25rem rgba(0, 0, 0, 0.1);
           box-shadow: 0px 0px 1.25rem rgba(0, 0, 0, 0.1);
-  padding: 1rem;
 }
 
 .contact .address .circle img {
   width: 2.5rem;
   height: 2.5rem;
+}
+
+.rent .bottom--line {
+  width: 20%;
+  display: inline-block;
+  border-bottom: 1px solid var(--orange);
+}
+
+.rent .form--head .bottom--line {
+  width: 20%;
+  display: inline-block;
+  border-bottom: 1px solid var(--orange);
+}
+
+.rent .form-main {
+  width: 90%;
+}
+
+.rent .form-main .form--item {
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.rent .form-main .form--item input, .rent .form-main .form--item textarea {
+  border-radius: 0.5rem;
+  padding: .7rem;
+  background-color: #F6F6F6;
+  border: none;
+}
+
+.rent .form-main .form--item button {
+  background-color: var(--orange);
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: .7rem;
+  border: none;
+}
+
+.rent .rent--info {
+  padding: 0 3rem;
+}
+
+.footer {
+  margin: 6rem 0;
+}
+
+.footer p {
+  color: var(--accent);
+}
+
+.footer p u {
+  color: var(--orange);
 }
 
 .notFound {
@@ -305,13 +360,17 @@ a, select, input, textarea, button {
   text-decoration: none;
 }
 
+.c--custom {
+  max-width: 85.125rem;
+}
+
 /* colors */
 .c-tag-1 {
   color: var(--primary) !important;
 }
 
-.c--custom {
-  max-width: 85.125rem;
+.c-tag-2 {
+  color: var(--accent) !important;
 }
 
 /* fonts */
@@ -319,6 +378,11 @@ a, select, input, textarea, button {
   font-family: var(--ff4);
   font-weight: 400;
   font-size: 1.5rem;
+}
+
+.medi--16 {
+  font-family: var(--ff2);
+  font-size: 1rem;
 }
 
 .medi--20 {

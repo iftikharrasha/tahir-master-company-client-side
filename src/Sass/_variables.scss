@@ -45,4 +45,10 @@ $ff4: var(--ff4);
     justify-content: center;
     align-items: center;
 }
+
+@mixin bottomLine($width) {
+    width: $width;
+    display: inline-block;
+    border-bottom: 1px solid $orange;
+}
   

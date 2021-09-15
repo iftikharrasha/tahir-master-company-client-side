@@ -40,13 +40,13 @@ const Gallery = () => {
     return (
         <>
             <section className="gallery py-5">
-                <Container>
+                <Container className="c--custom">
                     <div className={popUp ? "popup open" : "popup"}>
                         <img src={tempImgSrc} alt="popup"/>
                         <i className="fa fa-times cross" aria-hidden="true" onClick={() => setPopUp(false)}></i>
                     </div>
                 </Container>
-                <Container>
+                <Container className="c--custom">
                     <Row>
                         <Col className="text-center">
                             <h2>Gallery</h2>

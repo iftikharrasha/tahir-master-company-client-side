@@ -55,7 +55,7 @@ const HomeSlider = () => {
     return (
         <>
             <section>
-                <Container>
+                <Container className="c--custom">
                     <Row className="my-5">
                         <Col>
                             <div className="slides">
