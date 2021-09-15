@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import truck from '../../Images/truck.png';
+import truck from '../../Images/truck.jpg';
 
 const Rent = () => {
     return (

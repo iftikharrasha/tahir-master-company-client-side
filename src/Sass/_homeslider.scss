@@ -2,6 +2,12 @@
     .slider--img{
         padding: 0 3rem;
         cursor: pointer;
+        img{
+            border-radius: 1.2rem;
+        }
+        &:focus-visible {
+            outline: none;
+        }
     }
     .slick-dots{
         li{

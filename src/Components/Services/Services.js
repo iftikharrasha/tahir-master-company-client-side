@@ -1,43 +1,43 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import road from '../../Images/road.svg';
-import brush from '../../Images/paint-brush.svg';
-import balloon from '../../Images/hot-air-balloon.svg';
+import corrosive from '../../Images/corrosive.svg';
+import roller from '../../Images/roller.svg';
+import brush from '../../Images/brush.svg';
 import paint from '../../Images/paint.svg';
-import arrow from '../../Images/down-arrow.svg';
-import pantheon from '../../Images/pantheon.svg';
+import gutter from '../../Images/gutter.svg';
+import more from '../../Images/more.svg';
 
 const Services = () => {
     const services = [
         {
             id: 1,
             text: 'Korrosionsschutz Stahl',
-            imgSrc: road,
+            imgSrc: corrosive,
         },
         {
             id: 2,
             text: 'Streichen von Zäunen / Blechen / Geländern',
-            imgSrc: brush,
+            imgSrc: roller,
         },
         {
             id: 3,
             text: 'Industrielackierung',
-            imgSrc: balloon,
+            imgSrc: paint,
         },
         {
             id: 4,
             text: 'Malerarbeiten',
-            imgSrc: paint,
+            imgSrc: brush,
         },
         {
             id: 5,
             text: 'Dachrinnenreinigung',
-            imgSrc: arrow,
+            imgSrc: gutter,
         },
         {
             id: 6,
             text: 'U. V M',
-            imgSrc: pantheon,
+            imgSrc: more,
         },
     ]
 

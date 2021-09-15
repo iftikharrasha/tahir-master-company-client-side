@@ -92,6 +92,14 @@
   cursor: pointer;
 }
 
+.home--slider .slider--img img {
+  border-radius: 1.2rem;
+}
+
+.home--slider .slider--img:focus-visible {
+  outline: none;
+}
+
 .home--slider .slick-dots li button:before {
   font-size: 1rem;
   top: 1.5rem;
@@ -325,6 +333,10 @@
 
 .rent .rent--info {
   padding: 0 3rem;
+}
+
+.rent .rent--info .info--details img {
+  border-radius: 1rem;
 }
 
 .footer {
