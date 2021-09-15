@@ -5,7 +5,7 @@ import banner from '../../Images/banner.png';
 const Hero = () => {
     return (
         <>
-            <section className="hero my-5">
+            <section className="hero my-5" id="startseite">
                 <Container className="c--custom">
                     <Row className="align-items-center justify-content-between py-5">
                         <Col lg={7}>

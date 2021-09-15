@@ -7,7 +7,7 @@ import gmail from '../../Images/gmail.svg';
 const Contact = () => {
     return (
         <>
-            <section className="contact py-5">
+            <section className="contact py-5" id="kontakt">
                 <Container className="c--custom">
                     <Row className="my-5">
                         <Col className="text-center">

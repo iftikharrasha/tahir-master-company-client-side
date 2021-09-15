@@ -25,7 +25,7 @@ const HomeSlider = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: true,
-        arrows: true,
+        arrows: false,
         infinite: true,
         autoplay: true,
         autoplaySpeed: 3000,
@@ -54,7 +54,7 @@ const HomeSlider = () => {
 
     return (
         <>
-            <section>
+            <section className="home--slider pb-5">
                 <Container className="c--custom">
                     <Row className="my-5">
                         <Col>
@@ -62,7 +62,9 @@ const HomeSlider = () => {
                                 <Slider {...settings}>
                                     {
                                         slides.map((item) => (
-                                            <img key={item.id} className="img-fluid" src={item.imgSrc} alt="truck" />
+                                            <div className="slider--img" key={item.id}>
+                                                <img className="img-fluid" src={item.imgSrc} alt="truck" />
+                                            </div>
                                         ))
                                     }
                                 </Slider>

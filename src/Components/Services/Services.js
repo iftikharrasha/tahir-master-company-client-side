@@ -43,7 +43,7 @@ const Services = () => {
 
     return (
         <>
-            <section className="services py-5">
+            <section className="services py-5" id="mastanstrich">
                 <Container className="c--custom">
                     <Row className="mt-5">
                         <Col className="text-center">

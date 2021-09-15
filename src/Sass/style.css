@@ -30,9 +30,35 @@
   --ff4: 'Lato-Regular', 'san-serif';
 }
 
+.header {
+  background: var(--white);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  -webkit-transition: all 0.1s cubic-bezier(0.9, 0, 0.33, 1);
+  transition: all 0.1s cubic-bezier(0.9, 0, 0.33, 1);
+  z-index: 9999;
+}
+
 .header .menu a:hover {
   -webkit-filter: opacity(0.8);
           filter: opacity(0.8);
+}
+
+.header--sticky {
+  -webkit-box-shadow: 0px 0px 1.25rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 1.25rem rgba(0, 0, 0, 0.15);
+}
+
+.home--slider .slider--img {
+  padding: 0 3rem;
+  cursor: pointer;
+}
+
+.home--slider .slick-dots li button:before {
+  font-size: 1rem;
+  top: 1.5rem;
 }
 
 .services .bottom--line {

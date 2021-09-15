@@ -5,7 +5,7 @@ import truck from '../../Images/truck.png';
 const Rent = () => {
     return (
         <>
-            <section className="rent py-5">
+            <section className="rent py-5" id="hubsteiger">
                 <Container className="c--custom">
                     <Row className="my-5">
                         <Col className="text-center">

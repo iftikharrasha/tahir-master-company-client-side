@@ -1,0 +1,16 @@
+.home--slider{
+    .slider--img{
+        padding: 0 3rem;
+        cursor: pointer;
+    }
+    .slick-dots{
+        li{
+            button{
+                &:before{
+                    font-size: 1rem;
+                    top: 1.5rem;
+                }
+            }
+        }
+    }
+}
