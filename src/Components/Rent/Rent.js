@@ -9,16 +9,16 @@ const Rent = () => {
                 <Container className="c--custom">
                     <Row className="my-5">
                         <Col className="text-center">
-                            <h2>HUBSTEIGER MIETEN</h2>
+                            <h2 className="semi--45">HUBSTEIGER MIETEN</h2>
                             <span className="bottom--line"></span>
                         </Col>
                     </Row>
                     <Row className="my-5">
                         <Col>
                             <Row>
-                                <Col md={5}>
+                                <Col sm={5}>
                                     <div className="form--head text-center">
-                                        <h2>ÖFFNUNGSZEITEN</h2>
+                                        <h2 className="semi--30">ÖFFNUNGSZEITEN</h2>
                                         <span className="bottom--line"></span>
                                         <p className="medi--16 my-4">
                                             Montag bis Freitag: 10–18 Uhr <br />
@@ -26,31 +26,31 @@ const Rent = () => {
                                     </div>
                                     <form className="form-main">
                                         <div className="form--item my-4"> 
-                                            <label for="firmenname" className="medi--25 c-tag-2 mb-3">Firmenname:</label> 
+                                            <label htmlFor="firmenname" className="medi--25 c-tag-2 mb-3">Firmenname:</label> 
                                             <input type="text" name="firmenname" id="firmenname" className="d-block w-100 medi--25"/>
                                         </div>
                                         <div className="form--item my-4"> 
-                                            <label for="vorname" className="medi--25 c-tag-2 mb-3">Vorname*:</label> 
+                                            <label htmlFor="vorname" className="medi--25 c-tag-2 mb-3">Vorname*:</label> 
                                             <input type="text" name="vorname" id="vorname" className="d-block w-100 medi--25" required/>
                                         </div>
                                         <div className="form--item my-4"> 
-                                            <label for="nachname" className="medi--25 c-tag-2 mb-3">Nachname*:</label> 
+                                            <label htmlFor="nachname" className="medi--25 c-tag-2 mb-3">Nachname*:</label> 
                                             <input type="text" name="nachname" id="nachname" className="d-block w-100 medi--25" required/>
                                         </div>
                                         <div className="form--item my-4"> 
-                                            <label for="email" className="medi--25 c-tag-2 mb-3">E-Mail*:</label> 
+                                            <label htmlFor="email" className="medi--25 c-tag-2 mb-3">E-Mail*:</label> 
                                             <input type="email" name="email" id="email" className="d-block w-100 medi--25" required/>
                                         </div>
                                         <div className="form--item my-4"> 
-                                            <label for="telefon" className="medi--25 c-tag-2 mb-3">Telefon*:</label> 
+                                            <label htmlFor="telefon" className="medi--25 c-tag-2 mb-3">Telefon*:</label> 
                                             <input type="number" name="telefon" id="Telefon" className="d-block w-100 medi--25" required/>
                                         </div>
                                         <div className="form--item my-4"> 
-                                            <label for="info" className="medi--25 c-tag-2 mb-3">Info:</label> 
+                                            <label htmlFor="info" className="medi--25 c-tag-2 mb-3">Info:</label> 
                                             <textarea rows="5" name="info" id="info" className="d-block w-100 medi--25"></textarea>
                                         </div>
                                         <div className="form--item my-4"> 
-                                            <label for="telefon" className="medi--25 c-tag-2 mb-3">Telefon*:</label> 
+                                            <label htmlFor="telefon" className="medi--25 c-tag-2 mb-3">Telefon*:</label> 
                                             <input type="number" name="telefon" id="Telefon" className="d-block w-100 medi--25" required/>
                                         </div>
                                         <div className="form--item my-4"> 
@@ -61,10 +61,10 @@ const Rent = () => {
                                         </div>
                                     </form>
                                 </Col>
-                                <Col md={7}>
+                                <Col sm={7}>
                                     <div className="rent--info border-start border-top">
                                         <div className="form--head text-center mt-5">
-                                            <h2>Buchung Info</h2>
+                                            <h2 className="semi--30">Buchung Info</h2>
                                             <span className="bottom--line"></span>
                                         </div>
                                         <div className="info--details mt-4">

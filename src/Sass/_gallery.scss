@@ -1,6 +1,6 @@
 .gallery{
     .bottom--line{
-        @include bottomLine(5%);
+        @include bottomLine(7%);
     }
     .gallery--wrapper {
         -webkit-column-count: 3;

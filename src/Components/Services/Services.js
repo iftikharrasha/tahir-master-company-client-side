@@ -47,7 +47,7 @@ const Services = () => {
                 <Container className="c--custom">
                     <Row className="mt-5">
                         <Col className="text-center">
-                            <h2>Unsere Leistungen</h2>
+                            <h2 className="semi--45">Unsere Leistungen</h2>
                             <span className="bottom--line"></span>
                         </Col>
                     </Row>

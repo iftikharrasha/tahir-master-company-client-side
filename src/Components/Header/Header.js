@@ -15,7 +15,7 @@ const Header = () => {
             <header className={scroll ? "header header--sticky" : "header"}>
                 <Navbar collapseOnSelect expand="lg">
                     <Container className="c--custom">
-                        <Navbar.Brand href="#startseite">
+                        <Navbar.Brand href="#startseite" className="brand">
                             <img
                                 src={logo}
                                 width="100%"
@@ -24,14 +24,14 @@ const Header = () => {
                                 alt="logo"
                             />
                         </Navbar.Brand>
-                        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                        <Navbar.Toggle aria-controls="responsive-navbar-nav" className="toggler"/>
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="ms-auto medi--20 menu">
                                 <Nav.Link className="me-4 c-tag-1" href="#startseite">Startseite</Nav.Link>
                                 <Nav.Link className="me-4 c-tag-1" href="#mastanstrich">Mastanstrich</Nav.Link>
                                 <Nav.Link className="me-4 c-tag-1" href="#kontakt">Kontakt</Nav.Link>
                                 <Nav.Link className="me-4 c-tag-1" href="#hubsteiger">Hubsteiger Mieten</Nav.Link>
-                                <Nav.Link className="c-tag-1" href="#impressum">Impressum</Nav.Link>
+                                <Nav.Link className="me-4 c-tag-1" href="#impressum">Impressum</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>

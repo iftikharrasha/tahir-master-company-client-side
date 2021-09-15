@@ -11,13 +11,13 @@ const Contact = () => {
                 <Container className="c--custom">
                     <Row className="my-5">
                         <Col className="text-center">
-                            <h2>KONTAKT</h2>
+                            <h2 className="semi--45">KONTAKT</h2>
                             <span className="bottom--line"></span>
                         </Col>
                     </Row>
                     <Row className="my-5">
                         <Col>
-                            <Row>
+                            <Row className="align-items-center">
                                 <Col md={5} className="d-flex justify-content-center align-items-center flex-column">
                                     <address className="address d-flex justify-content-center align-items-center flex-column pb-5">
                                         <div className="circle d-flex justify-content-center align-items-center">

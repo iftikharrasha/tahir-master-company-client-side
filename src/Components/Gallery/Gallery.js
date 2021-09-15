@@ -49,7 +49,7 @@ const Gallery = () => {
                 <Container className="c--custom">
                     <Row>
                         <Col className="text-center">
-                            <h2>Gallery</h2>
+                            <h2 className="semi--45">Gallery</h2>
                             <span className="bottom--line"></span>
                         </Col>
                     </Row>

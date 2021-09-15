@@ -6,8 +6,29 @@
     top: 0;
     transition: all .1s cubic-bezier(.9,0,.33,1);
     z-index: 9999;
+    .brand{
+        img{
+            @media (max-width: 575.98px) {
+                width: 50%;
+            }
+        }
+    }
+    .toggler{
+        @media (max-width: 991.98px) {
+            font-size: 1.5rem;
+        }
+        &:focus {
+            box-shadow: none;
+        }
+    }
     .menu{
         a{
+            @media (max-width: 991.98px){
+                padding: 1.5rem;
+                &:not(:last-child){
+                    border-bottom: 1px solid #e7e7e7;
+                }
+            }
             &:hover{
                 filter: opacity(.8);
             }

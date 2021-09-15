@@ -41,6 +41,32 @@
   z-index: 9999;
 }
 
+@media (max-width: 575.98px) {
+  .header .brand img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .header .toggler {
+    font-size: 1.5rem;
+  }
+}
+
+.header .toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@media (max-width: 991.98px) {
+  .header .menu a {
+    padding: 1.5rem;
+  }
+  .header .menu a:not(:last-child) {
+    border-bottom: 1px solid #e7e7e7;
+  }
+}
+
 .header .menu a:hover {
   -webkit-filter: opacity(0.8);
           filter: opacity(0.8);
@@ -51,6 +77,16 @@
           box-shadow: 0px 0px 1.25rem rgba(0, 0, 0, 0.15);
 }
 
+.hero {
+  padding-top: 5rem;
+}
+
+@media (max-width: 991.98px) {
+  .hero h1, .hero img {
+    padding: 0 2rem 4rem 2rem;
+  }
+}
+
 .home--slider .slider--img {
   padding: 0 3rem;
   cursor: pointer;
@@ -59,6 +95,7 @@
 .home--slider .slick-dots li button:before {
   font-size: 1rem;
   top: 1.5rem;
+  color: var(--orange);
 }
 
 .services .bottom--line {
@@ -89,6 +126,25 @@
   cursor: pointer;
 }
 
+@media (max-width: 575.98px) {
+  .services .service--card .card--item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .services .service--card .card--item {
+    width: 30%;
+  }
+}
+
+@media (max-width: 320px) {
+  .services .service--card .card--item {
+    width: 60%;
+    padding: 4rem 3rem;
+  }
+}
+
 .services .service--card .card--item:hover {
   border: 1px solid var(--orange);
   -webkit-box-shadow: 0px 0px 1.25rem rgba(0, 0, 0, 0.15);
@@ -100,7 +156,7 @@
 }
 
 .gallery .bottom--line {
-  width: 5%;
+  width: 7%;
   display: inline-block;
   border-bottom: 1px solid var(--orange);
 }
@@ -201,7 +257,7 @@
 }
 
 .contact .bottom--line {
-  width: 7%;
+  width: 8%;
   display: inline-block;
   border-bottom: 1px solid var(--orange);
 }
@@ -233,6 +289,18 @@
 
 .rent .form-main {
   width: 90%;
+}
+
+@media (max-width: 575.98px) {
+  .rent .form-main {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .rent .form-main {
+    width: 100%;
+  }
 }
 
 .rent .form-main .form--item {
@@ -430,6 +498,12 @@ a, select, input, textarea, button {
   font-family: var(--ff3);
   font-weight: 600;
   font-size: 1.25rem;
+}
+
+.semi--30 {
+  font-family: var(--ff3);
+  font-weight: 600;
+  font-size: 1.875rem;
 }
 
 .semi--45 {
