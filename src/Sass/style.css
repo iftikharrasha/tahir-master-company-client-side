@@ -30,6 +30,146 @@
   --ff4: 'Lato-Regular', 'san-serif';
 }
 
+.header .menu a:hover {
+  -webkit-filter: opacity(0.8);
+          filter: opacity(0.8);
+}
+
+.services .bottom--line {
+  display: inline-block;
+  width: 15%;
+  border-bottom: 1px solid var(--orange);
+}
+
+.services .service--card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.services .service--card .card--item {
+  width: 25%;
+  margin: 15px;
+  padding: 60px 0;
+  border-radius: 10px;
+  border: 1px solid #ff990052;
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  cursor: pointer;
+}
+
+.services .service--card .card--item:hover {
+  border: 1px solid var(--orange);
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+
+.gallery .bottom--line {
+  display: inline-block;
+  width: 5%;
+  border-bottom: 1px solid var(--orange);
+}
+
+.gallery .gallery--wrapper {
+  -webkit-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  column-width: 33%;
+  padding: 0 12px;
+}
+
+@media (max-width: 991px) {
+  .gallery .gallery--wrapper {
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+
+.gallery .gallery--wrapper .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  cursor: pointer;
+  margin-bottom: 1.25rem;
+  overflow: hidden;
+}
+
+.gallery .gallery--wrapper .pics img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.gallery .gallery--wrapper .pics:hover {
+  -webkit-filter: opacity(0.8);
+          filter: opacity(0.8);
+}
+
+.gallery .gallery--wrapper .pics:hover img {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+
+.gallery .popup {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #000000;
+  -webkit-transition: opacity .4s ease, visibility .4s ease, -webkit-transform .5s ease-in-out;
+  transition: opacity .4s ease, visibility .4s ease, -webkit-transform .5s ease-in-out;
+  transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out;
+  transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  overflow: hidden;
+  z-index: 999;
+}
+
+.gallery .open {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.gallery .open img {
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  display: block;
+  line-height: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1.25rem 0 1.25rem;
+  margin: 0 auto;
+}
+
+.gallery .open .cross {
+  position: fixed;
+  top: 3.125rem;
+  right: 5rem;
+  font-size: 2rem;
+  color: var(--white);
+  cursor: pointer;
+}
+
 .notFound {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -175,37 +315,5 @@ a, select, input, textarea, button {
   font-weight: 600;
   font-size: 2.8rem;
   line-height: 4rem;
-}
-
-.services .bottom--line {
-  display: inline-block;
-  width: 15%;
-  border-bottom: 1px solid var(--orange);
-}
-
-.services .service--card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.services .service--card .card--item {
-  width: 25%;
-  margin: 15px;
-  padding: 60px 0;
-  border-radius: 10px;
-  border: 1px solid #ff990052;
-  cursor: pointer;
-}
-
-.services .service--card .card--item:hover {
-  border: 1px solid var(--orange);
-  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
 }
 /*# sourceMappingURL=style.css.map */
