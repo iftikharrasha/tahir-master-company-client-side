@@ -43,7 +43,7 @@ const Gallery = () => {
                 <Container>
                     <div className={popUp ? "popup open" : "popup"}>
                         <img src={tempImgSrc} alt="popup"/>
-                        <i class="fa fa-times cross" aria-hidden="true" onClick={() => setPopUp(false)}></i>
+                        <i className="fa fa-times cross" aria-hidden="true" onClick={() => setPopUp(false)}></i>
                     </div>
                 </Container>
                 <Container>

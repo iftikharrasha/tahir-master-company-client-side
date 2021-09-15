@@ -170,6 +170,26 @@
   cursor: pointer;
 }
 
+.contact .bottom--line {
+  display: inline-block;
+  width: 7%;
+  border-bottom: 1px solid var(--orange);
+}
+
+.contact .address .circle {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 1.25rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 1.25rem rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.contact .address .circle img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
 .notFound {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -295,6 +315,12 @@ a, select, input, textarea, button {
 }
 
 /* fonts */
+.lato--25 {
+  font-family: var(--ff4);
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
 .medi--20 {
   font-family: var(--ff2);
   font-size: 1.25rem;
@@ -308,6 +334,12 @@ a, select, input, textarea, button {
 .medi--35 {
   font-family: var(--ff2);
   font-size: 2.18rem;
+}
+
+.semi--20 {
+  font-family: var(--ff3);
+  font-weight: 600;
+  font-size: 1.25rem;
 }
 
 .semi--45 {

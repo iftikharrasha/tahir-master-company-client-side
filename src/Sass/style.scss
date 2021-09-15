@@ -3,6 +3,7 @@
 @import './hero';
 @import './services';
 @import './gallery';
+@import './contact';
 @import './notfound';
 
 * {
@@ -82,6 +83,12 @@ a, select , input , textarea , button{
 }
 
 /* fonts */
+.lato--25{
+    font-family: $ff4;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
 .medi--20{
     font-family: $ff2;
     font-size: 1.25rem;
@@ -95,6 +102,12 @@ a, select , input , textarea , button{
 .medi--35{
     font-family: $ff2;
     font-size: 2.18rem;
+}
+
+.semi--20{
+    font-family: $ff3;
+    font-weight: 600;
+    font-size: 1.25rem;
 }
 
 .semi--45{

@@ -8,6 +8,39 @@ import arrow from '../../Images/down-arrow.svg';
 import pantheon from '../../Images/pantheon.svg';
 
 const Services = () => {
+    const services = [
+        {
+            id: 1,
+            text: 'Korrosionsschutz Stahl',
+            imgSrc: road,
+        },
+        {
+            id: 2,
+            text: 'Streichen von Zäunen / Blechen / Geländern',
+            imgSrc: brush,
+        },
+        {
+            id: 3,
+            text: 'Industrielackierung',
+            imgSrc: balloon,
+        },
+        {
+            id: 4,
+            text: 'Malerarbeiten',
+            imgSrc: paint,
+        },
+        {
+            id: 5,
+            text: 'Dachrinnenreinigung',
+            imgSrc: arrow,
+        },
+        {
+            id: 6,
+            text: 'U. V M',
+            imgSrc: pantheon,
+        },
+    ]
+
     return (
         <>
             <section className="services py-5">
@@ -21,30 +54,15 @@ const Services = () => {
                     <Row className="my-3">
                         <Col className="d-flex justify-content-center">
                             <div className="service--card">
-                                <div className="card--item text-center">
-                                    <img className="img-fluid" src={road} alt="road" />
-                                    <p className="pt-5 medi--25">Korrosionsschutz Stahl</p>
-                                </div>
-                                <div className="card--item text-center">
-                                    <img className="img-fluid" src={brush} alt="brush" />
-                                    <p className="pt-5 medi--25">Streichen von Zäunen / Blechen / Geländern</p>
-                                </div>
-                                <div className="card--item text-center">
-                                    <img className="img-fluid" src={balloon} alt="balloon" />
-                                    <p className="pt-5 medi--25">Industrielackierung</p>
-                                </div>
-                                <div className="card--item text-center">
-                                    <img className="img-fluid" src={paint} alt="paint" />
-                                    <p className="pt-5 medi--25">Malerarbeiten</p>
-                                </div>
-                                <div className="card--item text-center">
-                                    <img className="img-fluid" src={arrow} alt="arrow" />
-                                    <p className="pt-5 medi--25">Dachrinnenreinigung</p>
-                                </div>
-                                <div className="card--item text-center">
-                                    <img className="img-fluid" src={pantheon} alt="pantheon" />
-                                    <p className="pt-5 medi--25">U. V M</p>
-                                </div>
+                                    { 
+                                        services.map((item) => (
+                                            <div className="card--item text-center" key={item.id}>
+                                                <img className="img-fluid" src={item.imgSrc} alt="service" />
+                                                <p className="pt-5 medi--25">{item.text}</p>
+                                            </div>
+                                        ))
+                                    }
+                               
                             </div>
                         </Col>
                     </Row>
