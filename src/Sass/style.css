@@ -352,6 +352,27 @@
   border-radius: 1rem;
 }
 
+.impression {
+  padding: 6rem 0;
+}
+
+.impression .nav-link {
+  color: var(--primary) !important;
+  padding: 1rem 0;
+  background-color: transparent !important;
+  border-bottom: 1px solid #dee2e6 !important;
+  cursor: pointer;
+}
+
+.impression .nav-pills .nav-link.active, .impression .nav-pills .show > .nav-link {
+  border: 1px solid #dee2e6 !important;
+  background-color: #F6F6F6 !important;
+}
+
+.impression p a {
+  color: var(--orange);
+}
+
 .footer {
   margin: 6rem 0;
 }
@@ -502,6 +523,7 @@ a, select, input, textarea, button {
 .medi--16 {
   font-family: var(--ff2);
   font-size: 1rem;
+  line-height: 2rem;
 }
 
 .medi--20 {
@@ -523,6 +545,7 @@ a, select, input, textarea, button {
   font-family: var(--ff3);
   font-weight: 600;
   font-size: 1.25rem;
+  line-height: 2rem;
 }
 
 .semi--30 {

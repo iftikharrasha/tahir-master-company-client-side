@@ -20,7 +20,7 @@ const Rent = () => {
                                     <div className="form--head text-center">
                                         <h2 className="semi--30">ÖFFNUNGSZEITEN</h2>
                                         <span className="bottom--line"></span>
-                                        <p className="medi--16 my-4">
+                                        <p className="my-4">
                                             Montag bis Freitag: 10–18 Uhr <br />
                                             Samstag: 11–15 Uhr</p>
                                     </div>
@@ -73,7 +73,7 @@ const Rent = () => {
                                                     <h4 className="medi--25">Miete:</h4>
                                                 </Col>
                                                 <Col md={10}>
-                                                    <p className="medi--16 c-tag-2">Mieten Sie einen Hubsteiger für z.B.
+                                                    <p className="c-tag-2">Mieten Sie einen Hubsteiger für z.B.
                                                     <br /> <br />
                                                         -Baumschnitt
                                                         <br />
@@ -117,7 +117,7 @@ const Rent = () => {
                                             </Row>
                                             <Row>
                                                 <Col md={10} className="offset-md-2">
-                                                    <p className="medi--16 c-tag-2">
+                                                    <p className="c-tag-2">
                                                     <br />
                                                     Hersteller
                                                     <br />                             

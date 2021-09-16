@@ -6,6 +6,7 @@
 @import './gallery';
 @import './contact';
 @import './rent';
+@import './impressum';
 @import './footer';
 @import './notfound';
 
@@ -99,6 +100,7 @@ a, select , input , textarea , button{
 .medi--16{
     font-family: $ff2;
     font-size: 1rem;
+    line-height: 2rem;
 }
 
 .medi--20{
@@ -120,6 +122,7 @@ a, select , input , textarea , button{
     font-family: $ff3;
     font-weight: 600;
     font-size: 1.25rem;
+    line-height: 2rem;
 }
 
 .semi--30{

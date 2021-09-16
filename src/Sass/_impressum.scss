@@ -1,0 +1,19 @@
+.impression{
+    padding: 6rem 0;
+    .nav-link {
+        color: $primary !important;
+        padding: 1rem 0;
+        background-color: transparent!important;
+        border-bottom: 1px solid #dee2e6!important;
+        cursor: pointer;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        border: 1px solid #dee2e6!important;
+        background-color: #F6F6F6 !important;
+    }
+    p{
+        a{
+            color: $orange;
+        }
+    }
+}
