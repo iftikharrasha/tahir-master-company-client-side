@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+### `Tahir-Lacke Master-Company -` [Live Link](https://tahir-lacke.netlify.app/).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="https://tahir-lacke.netlify.app/">
+    <img alt="Logo" src="./src/Images/logo.png" width="100" />
+  </a>
+</p>
+<h1 align="center">
+  Tahir Lacke
+</h1>
+<p align="center">
+  Built using <a href="https://reactjs.org/" target="_blank">React JS</a> and hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>.
+</p>
 
-## Available Scripts
+![hero](./src/Images/tahir-ui.jpg)
 
-In the project directory, you can run:
+## 🚀 Installation
 
-### `npm start`
+1.  Clone the repository and change directories
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    ```shell
+    git clone https://github.com/iftikharrasha/tahir-master-company-client-side.git
+    cd tahir-master-company-client-side
+    ```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2. Install dependencies
 
-### `npm test`
+    ```shell
+    npm install
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Start the local server
 
-### `npm run build`
+    The site is now running at `http://localhost:3000`!
+    
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4.  **Open the source code and start editing!**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## What's inside? 🧐
 
-### `npm run eject`
+A quick look at the top-level files hierarchy.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```sh
+  .
+  ├── node_modules
+  ├── public 
+  ├── src
+      └── Components
+          └── Contact
+            ├── Contact.js
+          └── Footer
+            ├── Footer.js
+          └── Gallery
+            ├── Gallery.js
+          └── Header
+            ├── Header.js
+          └── Hero
+            ├── Hero.js
+          └── HomeSlider
+            ├── HomeSlider.js
+          └── NotFound
+            ├── NotFound.js
+          └── Rent
+            ├── Rent.js
+          └── Services
+            ├── Services.js
+      └── Fonts
+      └── Images
+      └── Pages
+      └── Sass
+      ├── App.js
+      ├── App.test.js
+      ├── index.js
+      ├── logo.svg
+      ├── reportWebVitals.js
+      ├── setupTests.js
+  ├── .gitignore
+  ├── package-lock.json
+  ├── package.json
+  ├── README.md
+ ```
+ 
+ ## 🎨 Color Reference
+| Color          | Hex                                                                |
+| -------------- | ------------------------------------------------------------------ |
+| White          | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff` |
+| Orange        | ![#FF9900](https://via.placeholder.com/10/FF9900?text=+) `#FF9900` |
+| Primary        | ![#313131](https://via.placeholder.com/10/313131?text=+) `#313131` |
+| Accent        | ![#707070](https://via.placeholder.com/10/707070?text=+) `#707070` |
+| Secondary        | ![#202020](https://via.placeholder.com/10/202020?text=+) `#202020` |
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
